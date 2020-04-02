@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banco de dados academia" id="BAE13452-9FA9-2EF5-4C07-4FC81CCD2090" version="3.5">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-02 16:19:12 UTC</createdTime>
+<ownerDesignName>Banco de dados academia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BAE13452-9FA9-2EF5-4C07-4FC81CCD2090</designId>
+</OSDM_Design>
