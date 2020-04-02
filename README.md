@@ -1,6 +1,7 @@
 Design e Desenvolvimento de Banco de Dados I
 
-Membro: Vitor Felipe dos Santos Batisti
+Membro: Vitor Felipe dos Santos Batisti , Luiz Fernando Contarato Moura
+
 
 Turma: SI1Nb
 
