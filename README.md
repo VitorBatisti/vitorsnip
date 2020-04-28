@@ -17,4 +17,4 @@ Professores podem dar aulas particulares em horários fora da jornada de trabalh
 
 Aulas particulares tem o valor de 100 reais por hora em dias uteis, ja em finais de semana e feriados o valor é de 150 reais por hora.
 
-Alunos podem contratar 3 tipos de planos diferentes, sendo o mais simples chamado de "basico", permitindo apenas o uso de uma filial especifica, ou a segunda opção chamada de "VIP" que permite frequentar qualquer filial da rede de academias do estado de origem dela, ou a opção mais completa chamada de "PRIME" permitindo o acesso a qualquer filial do país.
+Alunos podem contratar 3 tipos de planos diferentes, sendo o mais simples chamado de "basico", permitindo apenas o uso de uma filial especifica, ou a segunda opção chamada de "VIP" que permite frequentar qualquer filial da rede de academias do estado de origem dela, ou a opção mais completa chamada de "PRIME" permitindo o acesso a qualquer filial do país. Os valores variam de 80, 100 e 120 reais, respectivamente.
