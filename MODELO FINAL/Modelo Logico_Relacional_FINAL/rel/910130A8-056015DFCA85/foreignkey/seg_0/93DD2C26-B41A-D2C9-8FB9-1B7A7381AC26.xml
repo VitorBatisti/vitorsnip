@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93DD2C26-B41A-D2C9-8FB9-1B7A7381AC26" containerWithKeyObject="630625CD-C9F2-7436-653C-DFBBE918AAAB" localFKIndex="B4D217C2-C705-64FE-C074-DBFF89B8DC76" name="limpeza_funcionarios_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>F1369668-9842-F024-E9CA-FA5AE880F613</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<referredTableLongName>funcionarios</referredTableLongName>
+<arc>66B40FF3-DE14-369A-16FE-C7B5474BFAC9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18BB7EC8-98FC-4490-51CB-9DD2C3CB1290</referredTableID>
+<keyObject>DCCABE9D-A87A-CD21-1174-EC60E3B994C8</keyObject>
+<referredKeyID>DCCABE9D-A87A-CD21-1174-EC60E3B994C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>registro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

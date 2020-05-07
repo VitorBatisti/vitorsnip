@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="289D1357-34AE-7C95-808E-0EBD4448915A" name="plano">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3B30219E-6559-5068-5FAD-BB461B7721C3</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome_plano" id="8FC1FC64-1A97-0AC6-3CED-C62C8F15606D">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>0EC65905-A154-66F9-2ED3-96EECF6975D4</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="52182E90-4520-5572-6566-342ACC1B0A2A">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>5F221CFC-7186-8701-42DF-9A875F5D5E82</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="06EB8949-8EE2-999F-FFF6-68DEF9BD3224">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>9E0E0DA6-E84D-A5AB-93FF-E415D9FE8F20</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="223E63F4-896E-2D8B-173B-C5DF4E62B1B3" name="plano_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>8DD4B0CB-0E50-79FE-6B15-4A9A9045665D</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC1FC64-1A97-0AC6-3CED-C62C8F15606D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

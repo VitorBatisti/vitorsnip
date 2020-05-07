@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6A97590-B68E-F4B5-21AA-11DEDFAAC66F" name="atendente">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:34:12 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>29EBC957-A504-1171-0814-71B979A352F9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

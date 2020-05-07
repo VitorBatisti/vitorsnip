@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FFD2158-AFC4-80D4-23AD-CD41DE89B585" name="filial">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>B0BEC341-986C-A333-993A-9A15346614BA</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_filial" id="1A209AC0-26D2-E209-57A0-06ADF5186276">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>22C3A58E-EEF7-758C-510F-C42034F3F4E3</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="9352FD6D-BB94-4DCB-A971-12844D93C304">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>57536E4C-2B5A-2234-27C1-7780DA1F7419</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proprietario" id="13987CB1-6C11-5EE5-F497-C591DC2BBC8E">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>FB7D664E-C7B7-9AC0-AAEF-3BC85B5431D7</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="D4BED115-D37B-9AEB-A0C3-8469EB5B3E18">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>8BD9965F-5E1E-D231-184A-FC027F166DBF</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="C0DE4E4F-3B23-1337-4C3E-88EC878D5B5C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>0D232A94-5B27-BDC2-D696-A29994541675</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="4B5FD2D6-7099-03A0-F564-8460B65AB1BC">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>091F813C-9EB5-E756-2A69-6FF7A7BCF3BA</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="6B23C3A7-E57D-F903-1CCE-D72B28308464">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>34C09ABD-DCD0-F230-85D6-6E57553DDFEE</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="053F876A-9958-C535-F25F-6169EFA60907">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>1453E2BB-08DF-D817-70D0-64039F7228B2</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="C0557C3A-10FC-8E48-F52B-B9DC1D8B5973">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>57BBE972-D232-79DE-4435-E18B0082119E</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="9832B6AE-2B67-A480-1469-B9087693EA2D">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>527FA278-9DB1-5D76-E09D-8B5A0C880FF5</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="923D26DE-B997-C7E0-E7B5-C53A897E7909">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>43783477-4782-A2F5-5E4E-4A54092B317F</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="BC7E6B0F-59DB-F238-2012-5FF32D8DF30B">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>7935AA05-52ED-14B3-0AF4-17BA236B529A</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DBB54F3-059D-7B9A-57E1-9D63E6205AC3" name="filial_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>92755B7B-544A-FB21-ADC4-1AC1EDD883C0</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A209AC0-26D2-E209-57A0-06ADF5186276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54EBFC22-19C6-49CB-EAF0-418066DE5305" name="filial_cnpj_UN">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>87E8AC4C-F6B9-0945-1A50-0A7C93B1C19E</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9352FD6D-BB94-4DCB-A971-12844D93C304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

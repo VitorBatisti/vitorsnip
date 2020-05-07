@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A4A6402-8C5C-9A26-8342-078CE8795A39" name="aula_particular">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>1650554D-3B04-9D14-30C4-A3407F9168C1</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aula" id="16B0554D-A24E-57B4-9CA9-8A18C32D9F3A">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>FC346138-F9BB-86DF-6C45-770634748228</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="D0C6011D-56AF-E9F2-86CC-91A8B7C2A28C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>1DCCE915-4D2E-8DCF-F7C7-DBFD67D633D2</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="0FAB6716-26FF-BFA5-AEF0-8E68045A1581">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>50E7FB96-E8E8-B098-E179-7160CFC94328</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="6F76C1D7-CCFE-D5B7-DB10-49CB407EA742">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>70249DFA-4C83-2E72-6787-A1CDA2D88919</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aluno_matricula" id="53136687-507E-A511-E000-82F32A0E62F6">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>19C2C0D3-C62C-AEEC-9349-91E9ED62CCCB</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EC10231-42C9-8AFF-8960-87290EBCBCCA" referredColumn="1B259FA2-3CA5-CA22-E2BD-A598AF8AACFA"/>
+</associations>
+</Column>
+<Column name="professor_registro" id="D6C8DA63-AB6D-12BC-DF89-08D1D5228C30">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>7860C315-EF33-F117-A05A-980CC23163B4</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86749EC9-D7F8-7C34-EBD2-171B3F8AF99A" referredColumn="ADAAA33F-9D59-AD83-C141-79041FFEE8D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0035F96B-AE96-55F0-E377-02D68DDEBCD8" name="aula_particular_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>7C080347-6844-4A5F-DDC8-0F0B9167DA59</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16B0554D-A24E-57B4-9CA9-8A18C32D9F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92AB2B01-FC96-7028-8C9B-5E95A3FFBF9D" name="aula_particular_professor_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>38183791-D137-FBD5-FF3F-DDC5D25F8FB2</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6C8DA63-AB6D-12BC-DF89-08D1D5228C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963E89B8-A49A-541C-9D9E-BBA25894CEBD" name="aula_particular_aluno_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>4264B6F0-87FB-FB95-0763-0EE6D85A6868</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53136687-507E-A511-E000-82F32A0E62F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FD35A58-C49A-A473-D665-ECDF2546C619" containerWithKeyObject="C4B6918C-B412-9889-6597-6BD480CA6B3A" localFKIndex="4047DB28-235B-8AD3-107B-E5DF3CE3D956" name="aluno_plano_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>DD59D314-5EFE-7A6B-486E-DB15964D3DDB</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<referredTableLongName>plano</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>289D1357-34AE-7C95-808E-0EBD4448915A</referredTableID>
+<keyObject>223E63F4-896E-2D8B-173B-C5DF4E62B1B3</keyObject>
+<referredKeyID>223E63F4-896E-2D8B-173B-C5DF4E62B1B3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>nome_plano</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

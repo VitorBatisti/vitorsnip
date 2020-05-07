@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29EBC957-A504-1171-0814-71B979A352F9" name="funcionarios">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:33:39 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="registro" id="81106F85-3B31-6246-91CC-F8E6C9EDA9FE">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 17:30:36 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="892F9ED3-7B00-85FE-FF49-5C8BC98F1355">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:50:58 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="46DF196F-51BB-1E4B-87A9-23164E5D1502">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:51:09 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="0A2D7F24-8DBB-D992-235B-864A4F353229">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:56:49 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="BEF26470-194F-29C2-B2CD-36064F267489">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:32:18 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="74D7D373-69DE-6DE6-2CAC-7470BEF2FABA">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:50:48 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_filial" id="4AB81786-B84D-0EF1-770D-EF4A9455E8CC">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:46:17 UTC</createdTime>
+<generatorID>29166F97-C589-8949-D00C-68B63501FD47</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<referedAttribute>22C3A58E-EEF7-758C-510F-C42034F3F4E3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A2F7065-CB9B-B873-58A3-09644759F67C" name="funcionarios PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:37:19 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81106F85-3B31-6246-91CC-F8E6C9EDA9FE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9C91710F-870E-254A-D531-477FC34B1316" name="Key_2">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:18:06 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<newElementsIDs>81106F85-3B31-6246-91CC-F8E6C9EDA9FE,892F9ED3-7B00-85FE-FF49-5C8BC98F1355</newElementsIDs>
+<usedAttributes>
+<attributeRef>81106F85-3B31-6246-91CC-F8E6C9EDA9FE</attributeRef>
+<attributeRef>892F9ED3-7B00-85FE-FF49-5C8BC98F1355</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

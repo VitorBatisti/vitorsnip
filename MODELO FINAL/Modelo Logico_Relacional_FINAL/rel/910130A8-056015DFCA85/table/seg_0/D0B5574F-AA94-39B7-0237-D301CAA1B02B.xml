@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0B5574F-AA94-39B7-0237-D301CAA1B02B" name="escala">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>C2452379-EEA6-824D-B721-4C22E98CF490</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="DFA497CB-1B78-BD74-FDE1-E3D2B33E8E2D">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>9B65ECD6-8F43-9A8A-201C-39D93EB58270</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="6AF71CEC-C802-8293-2320-A279801D7432">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>97EA530F-BE32-14BD-3EEF-6738772BE960</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionarios_registro" id="2A207A87-6459-6F86-52B0-09634E81077A">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>BC14B550-B097-D815-7BBB-96AB4355DAB2</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA8FF2F1-F65E-62EE-CC5E-D388FD8052B4" referredColumn="D652CD93-37D7-9A9D-5EE8-C4AC223D80C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C68ECFD0-EFC5-62CF-3942-8C64755AAFFC" name="escala_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>54DA1579-D0BF-C322-2704-39431EBEDBEE</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="DCA64C27-E5F2-543D-FBEF-2687419B0969" name="escala_funcionarios_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>B00B1B2F-3343-41AA-BF6B-258F308A9749</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A207A87-6459-6F86-52B0-09634E81077A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

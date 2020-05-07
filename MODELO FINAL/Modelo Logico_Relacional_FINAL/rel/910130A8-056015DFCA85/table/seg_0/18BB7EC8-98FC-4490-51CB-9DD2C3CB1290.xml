@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18BB7EC8-98FC-4490-51CB-9DD2C3CB1290" name="funcionarios">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>29EBC957-A504-1171-0814-71B979A352F9</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registro" id="D652CD93-37D7-9A9D-5EE8-C4AC223D80C3">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>81106F85-3B31-6246-91CC-F8E6C9EDA9FE</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="5495F69B-C943-8DC3-80CC-10A794C91DE6">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>892F9ED3-7B00-85FE-FF49-5C8BC98F1355</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="6B99BD44-7229-9B93-EE34-A5C7EF41D322">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>46DF196F-51BB-1E4B-87A9-23164E5D1502</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="4A472C94-DCFF-A375-F3B0-99A905BC289D">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>0A2D7F24-8DBB-D992-235B-864A4F353229</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="622953AC-2139-3E58-87A2-BF91223238C2">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>BEF26470-194F-29C2-B2CD-36064F267489</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="455CECF2-E72C-42A9-3F95-2459CDA6D804">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>74D7D373-69DE-6DE6-2CAC-7470BEF2FABA</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filial_id_filial" id="F3225D0C-692D-9B17-5C10-4130C759A84A">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>4AB81786-B84D-0EF1-770D-EF4A9455E8CC</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22464E8B-23A6-C3EB-7CDD-C50EC70338FA" referredColumn="1A209AC0-26D2-E209-57A0-06ADF5186276"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCCABE9D-A87A-CD21-1174-EC60E3B994C8" name="funcionarios_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3A2F7065-CB9B-B873-58A3-09644759F67C</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D652CD93-37D7-9A9D-5EE8-C4AC223D80C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="943021CF-1B3D-8A42-2DAD-EBA1EB7A3D50" name="funcionarios_registro_cpf_UN">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>9C91710F-870E-254A-D531-477FC34B1316</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D652CD93-37D7-9A9D-5EE8-C4AC223D80C3"/>
+<colUsage columnID="5495F69B-C943-8DC3-80CC-10A794C91DE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2567EE07-2E49-8820-597C-3BEC45BBD9CB" name="funcionarios_filial_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>29166F97-C589-8949-D00C-68B63501FD47</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3225D0C-692D-9B17-5C10-4130C759A84A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F3260F4-3C03-23F1-B047-EC02012AE63A" name="acesso">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:37:54 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data" id="2DF29CF2-B9C9-43D0-3BD6-094931640FD0">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:49:19 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="1F2C7EC0-E0C1-9712-F167-0EDD28A049D7">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:49:28 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="5F800C61-EE84-094A-135D-7BFB2499F6D0">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:20:10 UTC</createdTime>
+<generatorID>690F7F21-4C30-A6E7-D2D8-9C9290789B90</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<referedAttribute>825B12EB-957E-3631-A97A-FB0474BD3D43</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_filial" id="3E3234BE-56E9-CB09-F269-69072E1894D8">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:46:17 UTC</createdTime>
+<generatorID>E885C6DA-B844-1258-D81F-93148F7CA9DA</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<referedAttribute>22C3A58E-EEF7-758C-510F-C42034F3F4E3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55EF00CB-1523-D387-DB3D-294E705F09BB" name="acesso PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:50:03 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

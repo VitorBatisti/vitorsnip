@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16869177-9246-CAD4-1DE0-0B420002D07D" name="pagamento">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:58:02 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pagamento" id="C87EF8F1-CB42-957F-09AC-5435212C352C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:50:00 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="D6038E3C-B3F7-9F6B-7F0C-64991B2B3B6E">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 18:30:56 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modalidade" id="65AEF1C1-1499-BFB7-7660-410FADB39C6C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:58:10 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="9B52F64F-88AA-4BA7-A565-9718DE39A15A">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 19:00:37 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimento" id="C87FE85A-7EFB-9510-631F-22EFD42696E8">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-30 10:34:42 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="DBCE94FB-86A9-620F-CAF7-7766D4FDA4BC">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-30 10:34:51 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="5B875C59-CC3A-1A60-C1B2-587689EF2198">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:20:10 UTC</createdTime>
+<generatorID>812EB00F-2484-2AB4-8005-908E6493C537</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<referedAttribute>825B12EB-957E-3631-A97A-FB0474BD3D43</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aula" id="3985CFB7-A503-F0C8-9A25-A63DE78DFE85">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:53:37 UTC</createdTime>
+<generatorID>1B06412E-D6B6-8310-346E-A464EE997A2F</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<referedAttribute>FC346138-F9BB-86DF-6C45-770634748228</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2905F31B-81C1-178B-4D07-15D0C6F25669" name="pagamento PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 17:25:37 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C87EF8F1-CB42-957F-09AC-5435212C352C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B7D3D60-F08A-5A57-347C-258171CD856F" name="aluno">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:37:43 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="825B12EB-957E-3631-A97A-FB0474BD3D43">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:35:41 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="AA24ABCE-E948-5781-13B5-C2DCE82E3FDF">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:55:55 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="566CBBF9-8E00-A3DA-29FA-8E3F6923B06D">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:56:21 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="7DFCD6DA-7F25-AE59-02CB-575590B26740">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:31:03 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_de_entrada" id="7FE69BDA-02C6-E0AB-87DA-923182CD41B5">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-30 10:32:53 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="0BE84CCA-40AC-6EF6-BAD4-4CD276674C6E">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:54:23 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="3C2A44DE-9759-6183-D808-A1E4FA08956F">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:55:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_plano" id="F830D276-603A-2937-FAFF-F153B1D6AE7C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:57:18 UTC</createdTime>
+<generatorID>DD59D314-5EFE-7A6B-486E-DB15964D3DDB</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0EC65905-A154-66F9-2ED3-96EECF6975D4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B70D413E-507A-04BD-434B-D83ABB9729A1" name="aluno PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-28 16:36:49 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>825B12EB-957E-3631-A97A-FB0474BD3D43</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="142C95A4-895B-8C66-E5D3-3114F679F06B" name="Key_2">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:40:59 UTC</createdTime>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<engineerTo>
+<item key="910130A8-E2BC-E64D-92E6-056015DFCA85" value="true"/>
+</engineerTo>
+<newElementsIDs>AA24ABCE-E948-5781-13B5-C2DCE82E3FDF</newElementsIDs>
+<usedAttributes>
+<attributeRef>AA24ABCE-E948-5781-13B5-C2DCE82E3FDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

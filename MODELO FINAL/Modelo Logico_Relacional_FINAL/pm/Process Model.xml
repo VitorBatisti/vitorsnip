@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7AF98C8E-09CA-DA44-17E6-6F67D6D8CC6C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-04-09 09:29:34 UTC</createdTime>
+<ownerDesignName>modelo logico v1.0</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

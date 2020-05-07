@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="169F6903-E1F6-54FC-4EC8-F925D93D9FEA" name="atendente">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>D6A97590-B68E-F4B5-21AA-11DEDFAAC66F</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registro" id="62671840-E987-11D5-D182-2422719E2D45">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>81106F85-3B31-6246-91CC-F8E6C9EDA9FE</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1CF1CD6-81B8-50E6-C00E-6BD7D0DF0C2F" referredColumn="D652CD93-37D7-9A9D-5EE8-C4AC223D80C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B429A31E-A1A7-ACB5-BD74-71519E52AD93" name="atendente_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3A2F7065-CB9B-B873-58A3-09644759F67C</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62671840-E987-11D5-D182-2422719E2D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80C0948B-373D-1B06-87DE-B3C39D3F1E1F" name="atendente_funcionarios_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>591CB824-3EE6-44ED-3572-76F8B56D377B</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62671840-E987-11D5-D182-2422719E2D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

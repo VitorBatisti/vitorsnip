@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37717568-5DB0-BF6C-4B52-838210E6C94C" name="pagamento">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>16869177-9246-CAD4-1DE0-0B420002D07D</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pagamento" id="6C870B9B-B436-1698-13B6-80AE81E902EF">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>C87EF8F1-CB42-957F-09AC-5435212C352C</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="5CFA18C9-E1D7-7AE7-50B7-C0799F61A1BC">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>D6038E3C-B3F7-9F6B-7F0C-64991B2B3B6E</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modalidade" id="AC4BC839-18D2-C0EA-3C84-DCD5FFCF4418">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>65AEF1C1-1499-BFB7-7660-410FADB39C6C</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="D390F1AA-3E10-E125-9BE8-56EC288E3466">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>9B52F64F-88AA-4BA7-A565-9718DE39A15A</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vencimento" id="469574CE-3EF5-2D59-0CC0-18DC90803FD3">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>C87FE85A-7EFB-9510-631F-22EFD42696E8</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="8699E3AF-89B1-3172-605D-4D1E4ADDAB05">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>DBCE94FB-86A9-620F-CAF7-7766D4FDA4BC</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aluno_matricula" id="131111A5-169D-04DB-B654-DBDEF4AC20A3">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>5B875C59-CC3A-1A60-C1B2-587689EF2198</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01DB7ACA-2A5B-1445-E16F-CEE77C55AEE7" referredColumn="1B259FA2-3CA5-CA22-E2BD-A598AF8AACFA"/>
+</associations>
+</Column>
+<Column name="aula_particular_id_aula" id="DD184BF9-EF12-CB71-BBF1-2D26F08C2B21">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3985CFB7-A503-F0C8-9A25-A63DE78DFE85</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52DFC4AC-3F83-4954-890C-F9F608AE48BE" referredColumn="16B0554D-A24E-57B4-9CA9-8A18C32D9F3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95ECC6DA-0DAE-4602-6972-F5BBEC284451" name="pagamento_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>2905F31B-81C1-178B-4D07-15D0C6F25669</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C870B9B-B436-1698-13B6-80AE81E902EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ED872D7-B9B7-A949-D995-2E8B3B6C9D2B" name="pagamento_aluno_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>812EB00F-2484-2AB4-8005-908E6493C537</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="131111A5-169D-04DB-B654-DBDEF4AC20A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8771DE3-14F3-CB12-E455-D1261F43F13E" name="pagamento_aula_particular_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>1B06412E-D6B6-8310-346E-A464EE997A2F</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD184BF9-EF12-CB71-BBF1-2D26F08C2B21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

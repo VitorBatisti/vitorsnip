@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="646EB4CC-8DBC-ACC1-EAE0-1F997BFF6C20" name="professor">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3F1FCF91-BCAD-1AF5-DF69-A548FBC2486C</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registro" id="ADAAA33F-9D59-AD83-C141-79041FFEE8D8">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>81106F85-3B31-6246-91CC-F8E6C9EDA9FE</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23389D51-19AB-1315-8208-A691F2193496" referredColumn="D652CD93-37D7-9A9D-5EE8-C4AC223D80C3"/>
+</associations>
+</Column>
+<Column name="comissao" id="C6F15C55-632F-A4B8-05AC-F0CF42684927">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>570AD154-4DA0-3DFF-C2A0-FB23F1049766</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F3B980-C6A5-BF8B-FD9E-A2B4BCF80BC4" name="professor_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3A2F7065-CB9B-B873-58A3-09644759F67C</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADAAA33F-9D59-AD83-C141-79041FFEE8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FC25F33-CA75-E641-40F8-06FBF1F78740" name="professor_PKv1">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>DFC9AA4C-0C14-3171-C907-ABEF6CB2730D</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="97384502-E539-D9BB-709D-75B58AE56077" name="professor_funcionarios_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>0893B58D-0731-59F3-4FDD-126F1D702070</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADAAA33F-9D59-AD83-C141-79041FFEE8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

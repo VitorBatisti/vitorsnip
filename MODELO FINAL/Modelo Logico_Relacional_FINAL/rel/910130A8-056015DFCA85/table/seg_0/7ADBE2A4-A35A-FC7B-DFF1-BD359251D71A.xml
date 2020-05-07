@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ADBE2A4-A35A-FC7B-DFF1-BD359251D71A" name="acesso">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>5F3260F4-3C03-23F1-B047-EC02012AE63A</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="C0A416BC-5017-038C-E313-584E175DE81C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>2DF29CF2-B9C9-43D0-3BD6-094931640FD0</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="15A515C5-6BEC-4BC6-56CD-EA07C633E38A">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>1F2C7EC0-E0C1-9712-F167-0EDD28A049D7</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aluno_matricula" id="4F59D8D1-FA19-AF22-5CF9-DFB9E558441C">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>5F800C61-EE84-094A-135D-7BFB2499F6D0</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5F13923-18E2-43BB-FA69-276D680B2DEB" referredColumn="1B259FA2-3CA5-CA22-E2BD-A598AF8AACFA"/>
+</associations>
+</Column>
+<Column name="filial_id_filial" id="391EBB8C-5BC3-A9D4-FD7E-2864D6282DA1">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>3E3234BE-56E9-CB09-F269-69072E1894D8</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65D61F99-8E11-7F88-56CB-22CA0FDE7FC5" referredColumn="1A209AC0-26D2-E209-57A0-06ADF5186276"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E83517C-D540-C1F4-22D6-67AA74788580" name="acesso_PK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>55EF00CB-1523-D387-DB3D-294E705F09BB</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F5172E61-AE72-0AB9-8B12-7B6660E5E1A8" name="acesso_filial_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>E885C6DA-B844-1258-D81F-93148F7CA9DA</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="391EBB8C-5BC3-A9D4-FD7E-2864D6282DA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2AE2486-25A8-0D54-3F5A-DE64AB297BD6" name="acesso_aluno_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>690F7F21-4C30-A6E7-D2D8-9C9290789B90</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F59D8D1-FA19-AF22-5CF9-DFB9E558441C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

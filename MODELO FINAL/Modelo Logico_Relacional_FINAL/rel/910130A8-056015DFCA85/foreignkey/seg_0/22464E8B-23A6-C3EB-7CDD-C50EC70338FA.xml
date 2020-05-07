@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22464E8B-23A6-C3EB-7CDD-C50EC70338FA" containerWithKeyObject="18BB7EC8-98FC-4490-51CB-9DD2C3CB1290" localFKIndex="2567EE07-2E49-8820-597C-3BEC45BBD9CB" name="funcionarios_filial_FK">
+<createdBy>Vitor</createdBy>
+<createdTime>2020-05-06 23:59:58 UTC</createdTime>
+<generatorID>29166F97-C589-8949-D00C-68B63501FD47</generatorID>
+<ownerDesignName>Modelo Logico_Relacional</ownerDesignName>
+<referredTableLongName>filial</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FFD2158-AFC4-80D4-23AD-CD41DE89B585</referredTableID>
+<keyObject>1DBB54F3-059D-7B9A-57E1-9D63E6205AC3</keyObject>
+<referredKeyID>1DBB54F3-059D-7B9A-57E1-9D63E6205AC3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_filial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
